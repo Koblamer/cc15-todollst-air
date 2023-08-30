@@ -1,5 +1,5 @@
 import "./Header.scss";
-import { FaHome, FaBluetooth } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 import SearchBar from "./Search";
 
 function Header() {
@@ -7,7 +7,6 @@ function Header() {
     <header className="header">
       <div className="header__logo">
         <FaHome />
-        <FaBluetooth />
       </div>
       <div className="header__text">
         <h1>TodoList</h1>
