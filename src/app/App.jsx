@@ -3,6 +3,7 @@ import "./App.scss";
 import { FaHome } from "react-icons/fa";
 import Header from "../components/Header";
 import SideBar from "../components/SideBar";
+import ListItem from "../components/ListItem";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       </div>
       <div className="todo__sidebar">
         <SideBar />
+      </div>
+      <div className="todo__listItem">
+        <ListItem />
       </div>
       <div className="todo__content">TodoContent</div>
     </div>

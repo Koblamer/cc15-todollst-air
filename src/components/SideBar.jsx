@@ -1,19 +1,21 @@
-import { FaHome } from "react-icons/fa";
+import { FaInbox } from "react-icons/fa";
+import { FaRegCalendar } from "react-icons/fa";
+import { FaRegCalendarAlt } from "react-icons/fa";
 import "./SideBar.scss";
 
 function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__item">
-        <FaHome />
+        <FaInbox />
         <span className="marginX1">Inbox</span>
       </div>
       <div className="sidebar__item">
-        <FaHome />
+        <FaRegCalendar />
         <span className="marginX1">Today</span>
       </div>
       <div className="sidebar__item">
-        <FaHome />
+        <FaRegCalendarAlt />
         <span className="marginX1">Next 7 days</span>
       </div>
     </div>
